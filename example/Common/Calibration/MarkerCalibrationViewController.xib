@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -29,15 +29,15 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="cali_back.png" id="S3L-wh-48i" userLabel="BG">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cali_back.png" id="S3L-wh-48i" userLabel="BG">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <view contentMode="scaleToFill" misplaced="YES" id="asv-ob-1OI">
+                <view contentMode="scaleToFill" id="asv-ob-1OI">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WpQ-hs-foh" userLabel="RetryBtn">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WpQ-hs-foh" userLabel="RetryBtn">
                             <rect key="frame" x="287" y="0.0" width="44" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -53,7 +53,7 @@
                                 <action selector="retryClicked:" destination="-1" eventType="touchUpInside" id="BCR-gt-FXh"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sUV-DD-JHH" userLabel="CancelBtn">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sUV-DD-JHH" userLabel="CancelBtn">
                             <rect key="frame" x="331" y="0.0" width="44" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -69,7 +69,7 @@
                                 <action selector="cancelClicked:" destination="-1" eventType="touchUpInside" id="Yos-7q-4P1"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pGH-mB-PxM">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pGH-mB-PxM">
                             <rect key="frame" x="6" y="294" width="27" height="77"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button" image="maker01_normal_l.png">
@@ -79,7 +79,7 @@
                                 <action selector="eBeam_Left_Clicked:" destination="-1" eventType="touchUpInside" id="i8p-Du-nmO"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ryn-hZ-AW1">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ryn-hZ-AW1">
                             <rect key="frame" x="147" y="50" width="78" height="24"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" image="maker01_normal_t.png">
@@ -89,7 +89,7 @@
                                 <action selector="eBeam_Top_Clicked:" destination="-1" eventType="touchUpInside" id="FWZ-wI-Fa6"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="try-RZ-bzz">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="try-RZ-bzz">
                             <rect key="frame" x="344" y="294" width="26" height="77"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button" image="maker01_normal_l.png">
@@ -99,7 +99,7 @@
                                 <action selector="eBeam_right_Clicked:" destination="-1" eventType="touchUpInside" id="yn7-Vi-q6k"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eOg-Pf-sZy">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eOg-Pf-sZy">
                             <rect key="frame" x="147" y="639" width="78" height="24"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <state key="normal" image="maker01_normal_d.png">
@@ -120,15 +120,15 @@
                                 <action selector="eBeam_Both_Clicked:" destination="-1" eventType="touchUpInside" id="lGn-1p-zOg"/>
                             </connections>
                         </button>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="done_tap_ios.png" id="aV8-PE-wSO">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="done_tap_ios.png" id="aV8-PE-wSO">
                             <rect key="frame" x="5" y="5" width="30" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="paper_set_01_on.png" id="6vJ-Qk-pCV">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper_set_01_on.png" id="6vJ-Qk-pCV">
                             <rect key="frame" x="5" y="5" width="30" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="paper_set_02_off.png" id="1tm-pV-30G">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper_set_02_off.png" id="1tm-pV-30G">
                             <rect key="frame" x="337" y="632" width="33" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                         </imageView>
@@ -138,17 +138,17 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
-            <point key="canvasLocation" x="318" y="278"/>
+            <point key="canvasLocation" x="460.86956521739131" y="186.16071428571428"/>
         </view>
     </objects>
     <resources>
         <image name="cali_back.png" width="640" height="960"/>
         <image name="done_tap_ios.png" width="28" height="28"/>
-        <image name="eq_cali_bt_01.png" width="44" height="44"/>
+        <image name="eq_cali_bt_01.png" width="52.799999237060547" height="52.799999237060547"/>
         <image name="eq_cali_bt_02.png" width="44" height="44"/>
-        <image name="maker01_normal_d.png" width="93" height="29"/>
-        <image name="maker01_normal_l.png" width="29" height="93"/>
-        <image name="maker01_normal_t.png" width="93" height="29"/>
+        <image name="maker01_normal_d.png" width="93.5" height="29"/>
+        <image name="maker01_normal_l.png" width="29" height="93.5"/>
+        <image name="maker01_normal_t.png" width="93.5" height="29"/>
         <image name="maker01_p_l.png" width="16" height="16"/>
         <image name="paper_set_01_on.png" width="24" height="24"/>
         <image name="paper_set_02_off.png" width="24" height="24"/>
